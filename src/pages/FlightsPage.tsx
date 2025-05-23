@@ -33,6 +33,11 @@ function FlightsPage() {
     return <Loader />;
   }
 
+  const handleReset = () => {
+    setQuery("");
+    setSortBy("");
+  }
+
   const PAGE_SIZE = 10;
 
   const totalPages = Math.ceil(visibleFlights.length / PAGE_SIZE);
@@ -58,6 +63,8 @@ function FlightsPage() {
           <option value="ASC">Sort by Price: Low to High</option>
           <option value="DESC">Sort by Price: High to Low</option>
         </select>
+
+        <Button onClick={handleReset}>Reset Filters</Button>
       </Box>
 
       {paginatedFlights.length > 0 ? (
