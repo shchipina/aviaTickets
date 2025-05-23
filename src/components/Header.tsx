@@ -26,13 +26,6 @@ const Header = () => {
   return (
     <AppBar component="nav" position="static">
       <Toolbar>
-        <IconButton
-          color="inherit"
-          aria-label="open drawer"
-          edge="start"
-          sx={{ mr: 2, display: { sm: "none" } }}
-        ></IconButton>
-
         <Typography
           variant="h6"
           component="div"
