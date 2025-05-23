@@ -1,4 +1,7 @@
 #✈️ Flight Booking SPA
+
+<a href="https://shchipina.github.io/aviaTickets/">DEMO</a>
+
 ##Project Overview
 This is a single-page application (SPA) for browsing airline tickets. The app allows users to:
 
@@ -49,7 +52,7 @@ RTK Query (instead of Axios) – Efficient and modern data fetching
 - Randomly mark some seats as occupied, rest as free.
 - The user can select the free seats and add them to the cart
 
-###🛒 Cart – Cart
+### 🛒 Cart – Cart
 - Display list of selected tickets.
 - Fully managed via Redux.
 - Persisted in localStorage.
