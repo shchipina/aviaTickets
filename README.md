@@ -1,4 +1,4 @@
-#✈️ Flight Booking SPA
+# ✈️ Flight Booking SPA
 
 <a href="https://shchipina.github.io/aviaTickets/">DEMO</a>
 
